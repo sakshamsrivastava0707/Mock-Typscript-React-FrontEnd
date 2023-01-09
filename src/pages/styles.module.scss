@@ -1,0 +1,25 @@
+@use '../styles/themes-mixins' as m;
+
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    flex-direction: column;
+    padding: 4em;
+    gap: 4em;
+    @include m.themify {
+        color: m.themed('textColor');
+        background-color: m.themed('backgroundColor');
+    }
+}
+
+.header {
+    font-size: 3em;
+    font-weight: 800;
+    @include m.themify {
+        color: m.themed('textColor');
+        background-color: m.themed('backgroundColor');
+    }
+}

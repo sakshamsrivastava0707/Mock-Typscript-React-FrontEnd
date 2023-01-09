@@ -1,0 +1,18 @@
+$themes: (
+    light: (
+        backgroundColor: #fff,
+        textColor: #111111,
+        buttonTextColor: #fff,
+        buttonColor: #1976d2,
+        buttonHoverColor: #1565c0,
+        buttonBorder: 2px solid #fff
+    ),
+    dark: (
+        backgroundColor: #222,
+        textColor: #ddd,
+        buttonTextColor: #aaa,
+        buttonColor: #333,
+        buttonHoverColor: #444,
+        buttonBorder: 1px solid #aaa
+    )
+);
